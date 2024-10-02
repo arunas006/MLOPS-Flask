@@ -18,7 +18,7 @@ jobs:
         python-version: "3.9"
     - name: Install all the dependencies
       run:
-        pip install -r requirement.txt
+        pip install -r requirements.txt
     - name: Run the test case using pytest
       run: pytest
 
